@@ -31,8 +31,8 @@ def download_thumbnails(csv_path, save_directory):
                     print(f"Failed to download {image_url}: {e}")
 
 # Define file paths
-csv_file_path = r"D:\Work\Liam\NCRP pub and video structure (1)\NCRP pub and video structure\publications\CSVs"
-save_directory = r"D:\Work\Liam\NCRP pub and video structure (1)\NCRP pub and video structure\publications\data\thumbnails\commentaries"
+csv_file_path = r"Csv file path"
+save_directory = r"Save location"
 
 # Run the function
 download_thumbnails(csv_file_path, save_directory)
